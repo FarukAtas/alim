@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strBack" android:width="50.0dip" />
+        <Button android:id="@id/btSave" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/KaydetStr" />
+    </LinearLayout>
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Önemli Not: Giriş şifrenizi unuttuğunuzda, Ayarlar/Hesap Bilgilerinde kayıtlı e-posta adresinize şifreniz gönderilebilir. Lütfen bilgileri kontrol ediniz." />
+            <CheckBox android:id="@id/edPassReq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Girişte Şifre Kullanılsın" />
+            <TextView android:id="@id/lbNewPass1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Giriş Şifresi" />
+            <EditText android:id="@id/edNewPass1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:ems="10" android:singleLine="true" android:layout_weight="1.0" android:inputType="textPassword">
+                <requestFocus />
+            </EditText>
+            <TextView android:id="@id/lbNewPass2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Giriş Şifresi (tekrar)" />
+            <EditText android:id="@id/edNewPass2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPassword" />
+            <CheckBox android:id="@id/edShowPass" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Karakterleri göster" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

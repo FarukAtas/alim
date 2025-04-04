@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/HesapKoduStr" />
+            <EditText android:id="@id/edCarKod" android:layout_width="fill_parent" android:layout_height="0.0dip" android:ems="10" android:singleLine="true" android:layout_weight="1.0" android:inputType="textPersonName">
+                <requestFocus />
+            </EditText>
+            <TextView android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/HesapAdiStr" />
+            <EditText android:id="@id/edCarAd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:singleLine="true" android:inputType="text" />
+            <TextView android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/EpostaStr" />
+            <EditText android:id="@id/edPosta" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textEmailAddress" />
+            <TextView android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TelefonNumarasiStr" />
+            <EditText android:id="@id/edTel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="phone" />
+            <TextView android:id="@id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ParaBirimiStr" />
+            <Spinner android:id="@id/edPb" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

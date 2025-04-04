@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@id/lbMainScreenVers" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/MainScreen1" />
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btCariKartlar" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Cari Hesap Borç / Alacak" android:drawableTop="@drawable/cari72" android:layout_weight="1.0" />
+                <Button android:id="@id/btCari" android:layout_width="0.0dip" android:layout_height="fill_parent" android:drawableTop="@drawable/ya" android:layout_weight="1.0" />
+                <Button android:id="@id/btConnect" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Bağlan" android:drawableTop="@drawable/connecta72" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btKasaKartlar" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Nakit /KrediKartı" android:drawableTop="@drawable/kasa72" android:layout_weight="1.0" />
+                <Button android:id="@id/btBankaKartlar" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/title_activity_banka_kartlari" android:drawableTop="@drawable/banka72" android:layout_weight="1.0" />
+                <Button android:id="@id/btVarlikKartlar" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Varlıklar" android:drawableTop="@drawable/varlik72" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btGenelRaporlar" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/RaporlarStr" android:drawableTop="@drawable/raporlar" android:layout_weight="1.0" />
+                <Button android:id="@id/btAraclar" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/AraclarStr" android:drawableTop="@drawable/araclar1" android:layout_weight="1.0" />
+                <Button android:id="@id/btAyarlar" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/menu_settings" android:drawableTop="@drawable/ayarlar72" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="99.0">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MainScreen2" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="bottom|center" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MainScreen3" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="bottom|center" android:id="@id/lbMainScreen4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MainScreen4" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:id="@id/lbUsd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/UcNoktaStr" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:id="@id/lbEuro" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/UcNoktaStr" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

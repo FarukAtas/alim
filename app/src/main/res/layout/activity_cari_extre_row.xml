@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/rowLayout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tvTarih" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Tarih" android:layout_weight="0.15" />
+    <TextView android:id="@id/tvAck" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/AciklamaStr" android:layout_weight="0.35" />
+    <TextView android:gravity="right" android:id="@id/tvBorc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Borç" android:layout_weight="0.2" />
+    <TextView android:gravity="right" android:id="@id/tvAlck" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Alacak" android:layout_weight="0.2" />
+    <TextView android:gravity="right" android:id="@id/tvBky" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Bakiye" android:layout_weight="0.2" />
+</LinearLayout>

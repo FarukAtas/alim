@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:installLocation="auto" package="com.alyansyazilim.ilerimuhasebesistemi">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+    <application android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity
+            android:exported="true"
+            android:label="@string/title_activity_main" android:name="com.alyansyazilim.ilerimuhasebesistemi.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_banka" android:name="com.alyansyazilim.ilerimuhasebesistemi.BankaActivity"/>
+        <activity android:label="@string/title_activity_banka_kartlari" android:name="com.alyansyazilim.a_kartlar.BankaKartlariActivity"/>
+        <activity android:label="@string/title_activity_banka_karti" android:name="com.alyansyazilim.a_kart.BankaKartiActivity"/>
+        <activity android:label="@string/title_activity_banka_islemler" android:name="com.alyansyazilim.a_islemler.BankaIslemlerActivity"/>
+        <activity android:label="@string/title_activity_banka_yatan" android:name="com.alyansyazilim.a_islem.BankaIslemYatan"/>
+        <activity android:label="@string/title_activity_banka_virman" android:name="com.alyansyazilim.a_islem.BankaIslemVirman"/>
+        <activity android:label="@string/title_activity_banka_extre" android:name="com.alyansyazilim.a_extre.BankaExtre"/>
+        <activity android:label="@string/title_activity_cari" android:name="com.alyansyazilim.ilerimuhasebesistemi.CariActivity"/>
+        <activity android:label="@string/title_activity_cari_hesap_kartlari" android:name="com.alyansyazilim.a_kartlar.CariHesapKartlariActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.alyansyazilim.ilerimuhasebesistemi.CariActivity"/>
+        </activity>
+        <activity android:label="@string/title_activity_cari_hesap_karti" android:name="com.alyansyazilim.a_kart.CariHesapKartiActivity"/>
+        <activity android:label="@string/title_activity_cari_islemler" android:name="com.alyansyazilim.a_islemler.CariHesapIslemlerActivity"/>
+        <activity android:label="@string/title_activity_cari_tahsilat" android:name="com.alyansyazilim.a_islem.CariIslemTahsilat"/>
+        <activity android:label="@string/title_activity_cari_borclandir" android:name="com.alyansyazilim.a_islem.CariIslemBorclandir"/>
+        <activity android:label="@string/title_activity_cari_virman" android:name="com.alyansyazilim.a_islem.CariIslemVirman"/>
+        <activity android:label="@string/title_activity_cari_extre" android:name="com.alyansyazilim.a_extre.CariExtre"/>
+        <activity android:label="@string/title_activity_kasa" android:name="com.alyansyazilim.ilerimuhasebesistemi.KasaActivity"/>
+        <activity android:label="@string/title_activity_kasa_kartlari" android:name="com.alyansyazilim.a_kartlar.KasaKartlariActivity"/>
+        <activity android:label="@string/title_activity_kasa_karti" android:name="com.alyansyazilim.a_kart.KasaKartiActivity"/>
+        <activity android:label="@string/title_activity_kasa_islemler" android:name="com.alyansyazilim.a_islemler.KasaIslemlerActivity"/>
+        <activity android:label="@string/title_activity_kasa_tahsilat" android:name="com.alyansyazilim.a_islem.KasaIslemTahsil"/>
+        <activity android:label="@string/title_activity_kasa_virman" android:name="com.alyansyazilim.a_islem.KasaIslemVirman"/>
+        <activity android:label="@string/title_activity_kasa_extre" android:name="com.alyansyazilim.a_extre.KasaExtre"/>
+        <activity android:label="@string/title_activity_stok" android:name="com.alyansyazilim.z_other.StokActivity"/>
+        <activity android:label="@string/title_activity_stok" android:name="com.alyansyazilim.z_other.StokKartlariActivity"/>
+        <activity android:label="@string/title_activity_settings" android:name="com.alyansyazilim.ilerimuhasebesistemi.SettingsActivity"/>
+        <activity android:label="@string/title_activity_pb_kartlari" android:name="com.alyansyazilim.a_kartlar.ParaBirimKartlariActivity"/>
+        <activity android:label="@string/title_activity_varlik" android:name="com.alyansyazilim.ilerimuhasebesistemi.VarlikActivity"/>
+        <activity android:label="@string/title_activity_varlik_kartlari" android:name="com.alyansyazilim.a_kartlar.VarlikKartlariActivity"/>
+        <activity android:label="@string/title_activity_varlik_karti" android:name="com.alyansyazilim.a_kart.VarlikKartiActivity"/>
+        <activity android:label="@string/title_activity_tools" android:name="com.alyansyazilim.ilerimuhasebesistemi.ToolsActivity"/>
+        <activity android:label="@string/title_activity_DovizKurlari" android:name="com.alyansyazilim.ilerimuhasebesistemi.DovizKurlariActivity"/>
+        <activity android:label="@string/title_activity_systeminfo" android:name="com.alyansyazilim.ilerimuhasebesistemi.SystemInfo"/>
+        <activity android:label="@string/title_activity_rapor_geneldurum" android:name="com.alyansyazilim.ilerimuhasebesistemi.RaporGenelDurum"/>
+        <activity android:label="@string/title_activity_pb_karti" android:name="com.alyansyazilim.a_kart.ParaBirimKartiActivity"/>
+        <activity android:label="@string/title_activity_main_dbprops" android:name="com.alyansyazilim.a_kart.DbPropsKartiActivity"/>
+        <activity android:label="@string/title_activity_main" android:name="com.alyansyazilim.ilerimuhasebesistemi.BackupRestoreActivity"/>
+        <activity android:label="Bağlantı Seçenekleri" android:name="com.alyansyazilim.ilerimuhasebesistemi.ServerActivity"/>
+        <activity android:label="@string/title_activity_main" android:name="com.alyansyazilim.ilerimuhasebesistemi.YorumActivity"/>
+        <activity android:label="@string/title_activity_cari_hesap_kartlari" android:name="com.alyansyazilim.z_other.SQLiteDemo">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.alyansyazilim.ilerimuhasebesistemi.CariActivity"/>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.alyansyazilim.z_other.ListViewDemoActivity"/>
+        <service android:name="com.alyansyazilim.ilerimuhasebesistemi.ServerService"/>
+    </application>
+</manifest>

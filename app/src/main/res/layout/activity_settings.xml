@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/btHesapSahibi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Tanım Bilgileri ve Şifre" />
+    <Button android:id="@id/btBckRst" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Yedekle / Geri Yükle" />
+    <Button android:id="@id/btParaBirimleri" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Para Birimleri" />
+    <Button android:id="@id/btEmptyDB" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Tüm Verileri Sil" />
+    <Button android:id="@id/btSampleDB" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Örnek Veri Oluştur" />
+    <Button android:id="@id/btTest1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Test" />
+    <Button android:id="@id/btTest2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Test" />
+    <Button android:id="@id/btMainMenu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/strAnaMenu" />
+</LinearLayout>

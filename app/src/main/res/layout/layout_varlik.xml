@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/btKartlar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/VarliklarimStr" />
+    <Button android:id="@id/btKasaDurum" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/RaporlarStr" />
+    <Button android:id="@id/btMainMenu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/strAnaMenu" />
+</LinearLayout>

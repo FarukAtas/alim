@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rowLayout" android:background="@drawable/back" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/lbBanKod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="[ban kod]" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/tvTarih" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Tarih" android:layout_weight="0.15" />
+        <TextView android:id="@id/tvAck" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Açıklama" android:layout_weight="0.35" />
+        <TextView android:gravity="center" android:id="@id/tvBorc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Yatırılan" android:layout_weight="0.2" />
+        <TextView android:gravity="center" android:id="@id/tvAlck" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Çekilen" android:layout_weight="0.2" />
+        <TextView android:gravity="center" android:id="@id/TextView01" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Kalan" android:layout_weight="0.2" />
+    </LinearLayout>
+</LinearLayout>

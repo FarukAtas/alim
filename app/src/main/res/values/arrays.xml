@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="toyontemi">
+        <item>Nakit/Kredi Kartı</item>
+        <item>Banka</item>
+    </string-array>
+    <string-array name="popup_backuprestore">
+        <item>@string/EpostaStr</item>
+        <item>@string/GeriYukleStr</item>
+        <item>@string/SilStr</item>
+    </string-array>
+    <string-array name="popup_pbkart">
+        <item>@string/DegistirStr</item>
+    </string-array>
+    <string-array name="popup_vrlkart">
+        <item>@string/DegistirStr</item>
+        <item>@string/SilStr</item>
+    </string-array>
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string-array name="countries">
+        <item>Sweden</item>
+        <item>Norway</item>
+        <item>Finland</item>
+        <item>Denmark</item>
+        <item>Germany</item>
+        <item>Poland</item>
+        <item>Netherlands</item>
+        <item>Belgium</item>
+    </string-array>
+    <string-array name="menu">
+        <item>@string/SecStr</item>
+        <item>@string/EkleStr</item>
+        <item>@string/DegistirStr</item>
+    </string-array>
+    <string-array name="popup_bankaextre">
+        <item>@string/DegistirStr</item>
+        <item>@string/SilStr</item>
+    </string-array>
+    <string-array name="popup_bankakart">
+        <item>@string/HesapExtresiStr</item>
+        <item>@string/YatirilanStr</item>
+        <item>@string/CekilenStr</item>
+        <item>@string/VirmanStr</item>
+        <item>@string/DegistirStr</item>
+        <item>@string/SilStr</item>
+    </string-array>
+    <string-array name="popup_bankaislem">
+        <item>@string/DegistirStr</item>
+        <item>@string/SilStr</item>
+    </string-array>
+    <string-array name="popup_cariextre">
+        <item>@string/DegistirStr</item>
+        <item>@string/SilStr</item>
+    </string-array>
+    <string-array name="popup_carislem">
+        <item>@string/DegistirStr</item>
+        <item>@string/SilStr</item>
+    </string-array>
+    <string-array name="popup_carkart">
+        <item>@string/HesapExtresiStr</item>
+        <item>@string/TahsilatStr</item>
+        <item>@string/OdemeStr</item>
+        <item>@string/BorclandirStr</item>
+        <item>@string/AlacaklandirStr</item>
+        <item>@string/VirmanStr</item>
+        <item>@string/DegistirStr</item>
+        <item>@string/SilStr</item>
+    </string-array>
+    <string-array name="popup_kasaextre">
+        <item>@string/DegistirStr</item>
+        <item>@string/SilStr</item>
+    </string-array>
+    <string-array name="popup_kaskart">
+        <item>@string/KasaDefteriStr</item>
+        <item>@string/TahsilatStr</item>
+        <item>@string/OdemeStr</item>
+        <item>@string/DegisimStr</item>
+        <item>@string/DegistirStr</item>
+        <item>@string/SilStr</item>
+    </string-array>
+    <string-array name="popup_kasaislem">
+        <item>@string/DegistirStr</item>
+        <item>@string/SilStr</item>
+    </string-array>
+</resources>

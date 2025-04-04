@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/lblFace" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Detaylı bilgi için, buraya dokunarak Facebook sayfamızı ziyaret edin" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bu Cihazın Adı:" />
+        <EditText android:id="@id/edID" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10">
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Masaüstü yada taşınabilir bilgisayarınızdan bu cihaza bağlanmak için" android:layout_weight="1.0" />
+        <Button android:id="@id/server_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/server_start" android:layout_weight="0.1" />
+    </LinearLayout>
+    <TextView android:gravity="left" android:id="@id/lblIpAdress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/LabelStr" />
+    <TextView android:gravity="center" android:id="@id/TextView01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Sunucuya bağlanarak işlem yapmak için sunucunu IP adresini aşağıya yazıp bağlan düğmesine dokunun" />
+    <EditText android:id="@id/edSrvIP" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btConnect" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Bağlan" android:layout_weight="1.0" />
+        <Button android:id="@id/btDisConnect" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Bağlantıyı Kes" android:layout_weight="1.0" />
+    </LinearLayout>
+    <Button android:id="@id/btTestSrvConnect" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Test Sunucusuna Bağlan" />
+</LinearLayout>

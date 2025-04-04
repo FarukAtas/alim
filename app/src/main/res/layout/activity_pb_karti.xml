@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strBack" android:width="50.0dip" />
+        <Button android:id="@id/btSave" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/KaydetStr" />
+    </LinearLayout>
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Para Birim Kodu" />
+            <EditText android:id="@id/edKod" android:layout_width="fill_parent" android:layout_height="0.0dip" android:ems="10" android:singleLine="true" android:layout_weight="1.0" android:inputType="textPersonName">
+                <requestFocus />
+            </EditText>
+            <TextView android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AciklamaStr" />
+            <EditText android:id="@id/edAck" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:singleLine="true" android:inputType="text" />
+        </LinearLayout>
+    </ScrollView>
+    <CheckBox android:id="@id/edYerelPB" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/YerelParaBirimiStr" />
+</LinearLayout>

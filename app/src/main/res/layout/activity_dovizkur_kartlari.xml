@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strBack" android:width="50.0dip" />
+        <Button android:id="@id/btSave" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/KaydetStr" android:layout_weight="0.42" />
+        <Button android:id="@id/btRefresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/YenileStr" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_horizontal" android:id="@id/lbTarihSaat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/LabelStr" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/activity_dovizkur_kartlari_hdr" />
+    <ListView android:id="@id/listView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.8" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_horizontal" android:layout_gravity="bottom" android:id="@id/lbKaynak" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/LabelStr" android:layout_weight="0.01" />
+</LinearLayout>

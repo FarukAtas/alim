@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strBack" android:width="50.0dip" />
+        <Button android:id="@id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/EkleStr" />
+        <EditText android:id="@id/edFindTxt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1.0" android:inputType="text" />
+        <Button android:id="@id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BulStr" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/activity_cari_hesapkartlari_hdr" />
+    <ListView android:id="@id/listView1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

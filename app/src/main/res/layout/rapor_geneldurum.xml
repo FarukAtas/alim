@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strBack" android:width="50.0dip" />
+        <Button android:id="@id/btMail" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/strSendMail" android:layout_weight="0.69" />
+        <Button android:id="@id/btIncrease" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A" android:width="40.0dip" />
+        <Button android:id="@id/btDecrease" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="a" android:width="40.0dip" />
+    </LinearLayout>
+    <ScrollView android:id="@id/scrollView1" android:scrollbars="horizontal|vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <HorizontalScrollView android:id="@id/horizontalScrollView1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:ellipsize="end" android:id="@id/lbRp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:scrollHorizontally="true" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>
